@@ -5,9 +5,9 @@ import { Sidebar } from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="m-0 p-0"> 
       <HeroSection />
-      <div className="grid grid-cols-4">
+      <div className="flex">
         <Sidebar />
         <ShopList />
       </div>

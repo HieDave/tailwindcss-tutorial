@@ -5,7 +5,7 @@ import { Sidebar } from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="m-0 p-0"> 
+    <div> 
       <HeroSection />
       <div className="flex">
         <Sidebar />
